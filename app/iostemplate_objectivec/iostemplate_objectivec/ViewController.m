@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *etUsername;
+@property (weak, nonatomic) IBOutlet UITextField *etPassword;
 
 @end
 
@@ -25,5 +27,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onLoginClick:(id)sender {
+    NSLog(@"booom");
+}
 
 @end
