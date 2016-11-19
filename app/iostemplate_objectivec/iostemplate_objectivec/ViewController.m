@@ -30,9 +30,45 @@
 
 - (IBAction)onLoginClick:(id)sender {
     NSLog(@"booom");
+    [self postRequest];
+}
+
+-(void) postRequest{
+    NSString *url = @"http://localhost/iostemplate_objectivec/web/json.php";
+    NSDictionary *parameters = @{@"postdata": @"jay", @"baz": @[@1, @2, @3]};
     
+    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+//    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
+    //[manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
+    [manager POST:url parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"%@", responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"error: %@", error);
+    }];
+}
+
+-(void) normalHttpRequest{
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
     
+    NSURL *URL = [NSURL URLWithString:@"http://httpbin.org/get"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+    
+    NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
+        if (error) {
+            NSLog(@"Error: %@", error);
+        } else {
+            NSLog(@"%@ %@", response, responseObject);
+        }
+    }];
+    [dataTask resume];
+}
+
+
+
+-(void) fileDownload{
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
     
@@ -47,5 +83,6 @@
     }];
     [downloadTask resume];
 }
+
 
 @end
