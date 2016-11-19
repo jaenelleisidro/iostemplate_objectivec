@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05230CDF41CF6A26316E876D /* libPods-iostemplate_objectivec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E2629D3F3A35DC66DC7372 /* libPods-iostemplate_objectivec.a */; };
+		CDD65FEE1DE0755C00FDEC88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD65FED1DE0755C00FDEC88 /* main.m */; };
+		CDD65FF11DE0755C00FDEC88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD65FF01DE0755C00FDEC88 /* AppDelegate.m */; };
+		CDD65FF41DE0755C00FDEC88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD65FF31DE0755C00FDEC88 /* ViewController.m */; };
+		CDD65FF71DE0755C00FDEC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD65FF51DE0755C00FDEC88 /* Main.storyboard */; };
+		CDD65FF91DE0755C00FDEC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD65FF81DE0755C00FDEC88 /* Assets.xcassets */; };
+		CDD65FFC1DE0755C00FDEC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD65FFA1DE0755C00FDEC88 /* LaunchScreen.storyboard */; };
+		CDD660071DE0755C00FDEC88 /* iostemplate_objectivecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD660061DE0755C00FDEC88 /* iostemplate_objectivecTests.m */; };
+		CDD660121DE0755C00FDEC88 /* iostemplate_objectivecUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD660111DE0755C00FDEC88 /* iostemplate_objectivecUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDD660031DE0755C00FDEC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD65FE11DE0755C00FDEC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD65FE81DE0755C00FDEC88;
+			remoteInfo = iostemplate_objectivec;
+		};
+		CDD6600E1DE0755C00FDEC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD65FE11DE0755C00FDEC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD65FE81DE0755C00FDEC88;
+			remoteInfo = iostemplate_objectivec;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		156E59268FA529A92B974F1E /* Pods-iostemplate_objectivec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostemplate_objectivec.release.xcconfig"; path = "Pods/Target Support Files/Pods-iostemplate_objectivec/Pods-iostemplate_objectivec.release.xcconfig"; sourceTree = "<group>"; };
+		7EE152366A19C929B0CA4D83 /* Pods-iostemplate_objectivec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostemplate_objectivec.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iostemplate_objectivec/Pods-iostemplate_objectivec.debug.xcconfig"; sourceTree = "<group>"; };
+		84E2629D3F3A35DC66DC7372 /* libPods-iostemplate_objectivec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iostemplate_objectivec.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD65FE91DE0755C00FDEC88 /* iostemplate_objectivec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iostemplate_objectivec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD65FED1DE0755C00FDEC88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDD65FEF1DE0755C00FDEC88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDD65FF01DE0755C00FDEC88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDD65FF21DE0755C00FDEC88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDD65FF31DE0755C00FDEC88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDD65FF61DE0755C00FDEC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDD65FF81DE0755C00FDEC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDD65FFB1DE0755C00FDEC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDD65FFD1DE0755C00FDEC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD660021DE0755C00FDEC88 /* iostemplate_objectivecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iostemplate_objectivecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD660061DE0755C00FDEC88 /* iostemplate_objectivecTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iostemplate_objectivecTests.m; sourceTree = "<group>"; };
+		CDD660081DE0755C00FDEC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD6600D1DE0755C00FDEC88 /* iostemplate_objectivecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iostemplate_objectivecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD660111DE0755C00FDEC88 /* iostemplate_objectivecUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iostemplate_objectivecUITests.m; sourceTree = "<group>"; };
+		CDD660131DE0755C00FDEC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD65FE61DE0755C00FDEC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05230CDF41CF6A26316E876D /* libPods-iostemplate_objectivec.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD65FFF1DE0755C00FDEC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD6600A1DE0755C00FDEC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454077B6D6F621D21A683FA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E2629D3F3A35DC66DC7372 /* libPods-iostemplate_objectivec.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		577ADEEDCC1486BDB703023D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EE152366A19C929B0CA4D83 /* Pods-iostemplate_objectivec.debug.xcconfig */,
+				156E59268FA529A92B974F1E /* Pods-iostemplate_objectivec.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDD65FE01DE0755C00FDEC88 = {
+			isa = PBXGroup;
+			children = (
+				CDD65FEB1DE0755C00FDEC88 /* iostemplate_objectivec */,
+				CDD660051DE0755C00FDEC88 /* iostemplate_objectivecTests */,
+				CDD660101DE0755C00FDEC88 /* iostemplate_objectivecUITests */,
+				CDD65FEA1DE0755C00FDEC88 /* Products */,
+				577ADEEDCC1486BDB703023D /* Pods */,
+				454077B6D6F621D21A683FA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDD65FEA1DE0755C00FDEC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD65FE91DE0755C00FDEC88 /* iostemplate_objectivec.app */,
+				CDD660021DE0755C00FDEC88 /* iostemplate_objectivecTests.xctest */,
+				CDD6600D1DE0755C00FDEC88 /* iostemplate_objectivecUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD65FEB1DE0755C00FDEC88 /* iostemplate_objectivec */ = {
+			isa = PBXGroup;
+			children = (
+				CDD65FEF1DE0755C00FDEC88 /* AppDelegate.h */,
+				CDD65FF01DE0755C00FDEC88 /* AppDelegate.m */,
+				CDD65FF21DE0755C00FDEC88 /* ViewController.h */,
+				CDD65FF31DE0755C00FDEC88 /* ViewController.m */,
+				CDD65FF51DE0755C00FDEC88 /* Main.storyboard */,
+				CDD65FF81DE0755C00FDEC88 /* Assets.xcassets */,
+				CDD65FFA1DE0755C00FDEC88 /* LaunchScreen.storyboard */,
+				CDD65FFD1DE0755C00FDEC88 /* Info.plist */,
+				CDD65FEC1DE0755C00FDEC88 /* Supporting Files */,
+			);
+			path = iostemplate_objectivec;
+			sourceTree = "<group>";
+		};
+		CDD65FEC1DE0755C00FDEC88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD65FED1DE0755C00FDEC88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDD660051DE0755C00FDEC88 /* iostemplate_objectivecTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDD660061DE0755C00FDEC88 /* iostemplate_objectivecTests.m */,
+				CDD660081DE0755C00FDEC88 /* Info.plist */,
+			);
+			path = iostemplate_objectivecTests;
+			sourceTree = "<group>";
+		};
+		CDD660101DE0755C00FDEC88 /* iostemplate_objectivecUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDD660111DE0755C00FDEC88 /* iostemplate_objectivecUITests.m */,
+				CDD660131DE0755C00FDEC88 /* Info.plist */,
+			);
+			path = iostemplate_objectivecUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDD65FE81DE0755C00FDEC88 /* iostemplate_objectivec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD660161DE0755C00FDEC88 /* Build configuration list for PBXNativeTarget "iostemplate_objectivec" */;
+			buildPhases = (
+				2F76FE96C898D42B601593A5 /* [CP] Check Pods Manifest.lock */,
+				CDD65FE51DE0755C00FDEC88 /* Sources */,
+				CDD65FE61DE0755C00FDEC88 /* Frameworks */,
+				CDD65FE71DE0755C00FDEC88 /* Resources */,
+				4CFB8333BC16AF041ACF79D5 /* [CP] Embed Pods Frameworks */,
+				2C6CDD1D02C6804B20D36E76 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iostemplate_objectivec;
+			productName = iostemplate_objectivec;
+			productReference = CDD65FE91DE0755C00FDEC88 /* iostemplate_objectivec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDD660011DE0755C00FDEC88 /* iostemplate_objectivecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD660191DE0755C00FDEC88 /* Build configuration list for PBXNativeTarget "iostemplate_objectivecTests" */;
+			buildPhases = (
+				CDD65FFE1DE0755C00FDEC88 /* Sources */,
+				CDD65FFF1DE0755C00FDEC88 /* Frameworks */,
+				CDD660001DE0755C00FDEC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD660041DE0755C00FDEC88 /* PBXTargetDependency */,
+			);
+			name = iostemplate_objectivecTests;
+			productName = iostemplate_objectivecTests;
+			productReference = CDD660021DE0755C00FDEC88 /* iostemplate_objectivecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDD6600C1DE0755C00FDEC88 /* iostemplate_objectivecUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD6601C1DE0755C00FDEC88 /* Build configuration list for PBXNativeTarget "iostemplate_objectivecUITests" */;
+			buildPhases = (
+				CDD660091DE0755C00FDEC88 /* Sources */,
+				CDD6600A1DE0755C00FDEC88 /* Frameworks */,
+				CDD6600B1DE0755C00FDEC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD6600F1DE0755C00FDEC88 /* PBXTargetDependency */,
+			);
+			name = iostemplate_objectivecUITests;
+			productName = iostemplate_objectivecUITests;
+			productReference = CDD6600D1DE0755C00FDEC88 /* iostemplate_objectivecUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD65FE11DE0755C00FDEC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jaenelle Isidro";
+				TargetAttributes = {
+					CDD65FE81DE0755C00FDEC88 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CDD660011DE0755C00FDEC88 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDD65FE81DE0755C00FDEC88;
+					};
+					CDD6600C1DE0755C00FDEC88 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDD65FE81DE0755C00FDEC88;
+					};
+				};
+			};
+			buildConfigurationList = CDD65FE41DE0755C00FDEC88 /* Build configuration list for PBXProject "iostemplate_objectivec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDD65FE01DE0755C00FDEC88;
+			productRefGroup = CDD65FEA1DE0755C00FDEC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDD65FE81DE0755C00FDEC88 /* iostemplate_objectivec */,
+				CDD660011DE0755C00FDEC88 /* iostemplate_objectivecTests */,
+				CDD6600C1DE0755C00FDEC88 /* iostemplate_objectivecUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDD65FE71DE0755C00FDEC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD65FFC1DE0755C00FDEC88 /* LaunchScreen.storyboard in Resources */,
+				CDD65FF91DE0755C00FDEC88 /* Assets.xcassets in Resources */,
+				CDD65FF71DE0755C00FDEC88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD660001DE0755C00FDEC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD6600B1DE0755C00FDEC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C6CDD1D02C6804B20D36E76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iostemplate_objectivec/Pods-iostemplate_objectivec-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F76FE96C898D42B601593A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CFB8333BC16AF041ACF79D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iostemplate_objectivec/Pods-iostemplate_objectivec-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDD65FE51DE0755C00FDEC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD65FF41DE0755C00FDEC88 /* ViewController.m in Sources */,
+				CDD65FF11DE0755C00FDEC88 /* AppDelegate.m in Sources */,
+				CDD65FEE1DE0755C00FDEC88 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD65FFE1DE0755C00FDEC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD660071DE0755C00FDEC88 /* iostemplate_objectivecTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD660091DE0755C00FDEC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD660121DE0755C00FDEC88 /* iostemplate_objectivecUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDD660041DE0755C00FDEC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDD65FE81DE0755C00FDEC88 /* iostemplate_objectivec */;
+			targetProxy = CDD660031DE0755C00FDEC88 /* PBXContainerItemProxy */;
+		};
+		CDD6600F1DE0755C00FDEC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDD65FE81DE0755C00FDEC88 /* iostemplate_objectivec */;
+			targetProxy = CDD6600E1DE0755C00FDEC88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDD65FF51DE0755C00FDEC88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD65FF61DE0755C00FDEC88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDD65FFA1DE0755C00FDEC88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD65FFB1DE0755C00FDEC88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDD660141DE0755C00FDEC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDD660151DE0755C00FDEC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDD660171DE0755C00FDEC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE152366A19C929B0CA4D83 /* Pods-iostemplate_objectivec.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iostemplate_objectivec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.herobo.securitywizards.iostemplate-objectivec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDD660181DE0755C00FDEC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156E59268FA529A92B974F1E /* Pods-iostemplate_objectivec.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iostemplate_objectivec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.herobo.securitywizards.iostemplate-objectivec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDD6601A1DE0755C00FDEC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iostemplate_objectivecTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.herobo.securitywizards.iostemplate-objectivecTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iostemplate_objectivec.app/iostemplate_objectivec";
+			};
+			name = Debug;
+		};
+		CDD6601B1DE0755C00FDEC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iostemplate_objectivecTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.herobo.securitywizards.iostemplate-objectivecTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iostemplate_objectivec.app/iostemplate_objectivec";
+			};
+			name = Release;
+		};
+		CDD6601D1DE0755C00FDEC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iostemplate_objectivecUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.herobo.securitywizards.iostemplate-objectivecUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iostemplate_objectivec;
+			};
+			name = Debug;
+		};
+		CDD6601E1DE0755C00FDEC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iostemplate_objectivecUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.herobo.securitywizards.iostemplate-objectivecUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iostemplate_objectivec;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDD65FE41DE0755C00FDEC88 /* Build configuration list for PBXProject "iostemplate_objectivec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD660141DE0755C00FDEC88 /* Debug */,
+				CDD660151DE0755C00FDEC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD660161DE0755C00FDEC88 /* Build configuration list for PBXNativeTarget "iostemplate_objectivec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD660171DE0755C00FDEC88 /* Debug */,
+				CDD660181DE0755C00FDEC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDD660191DE0755C00FDEC88 /* Build configuration list for PBXNativeTarget "iostemplate_objectivecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD6601A1DE0755C00FDEC88 /* Debug */,
+				CDD6601B1DE0755C00FDEC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDD6601C1DE0755C00FDEC88 /* Build configuration list for PBXNativeTarget "iostemplate_objectivecUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD6601D1DE0755C00FDEC88 /* Debug */,
+				CDD6601E1DE0755C00FDEC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD65FE11DE0755C00FDEC88 /* Project object */;
+}
