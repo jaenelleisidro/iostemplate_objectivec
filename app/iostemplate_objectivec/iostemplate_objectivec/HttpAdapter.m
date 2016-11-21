@@ -17,7 +17,7 @@
     self = [super init];
     manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
-    //    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    //[manager.requestSerializer = [AFJSONRequestSerializer serializer];
     //[manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
     return self;
