@@ -46,4 +46,11 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *row=[rows objectAtIndex:indexPath.row];
+    NSLog(row);
+}
+
+
 @end

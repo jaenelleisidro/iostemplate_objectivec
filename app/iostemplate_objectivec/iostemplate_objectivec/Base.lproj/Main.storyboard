@@ -112,6 +112,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="yUE-Wh-bcK" id="ikM-FA-pmf"/>
+                                    <outlet property="delegate" destination="yUE-Wh-bcK" id="U8H-lM-bky"/>
                                 </connections>
                             </tableView>
                         </subviews>
