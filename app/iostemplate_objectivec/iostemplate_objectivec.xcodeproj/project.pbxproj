@@ -16,6 +16,9 @@
 		CDD65FFC1DE0755C00FDEC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD65FFA1DE0755C00FDEC88 /* LaunchScreen.storyboard */; };
 		CDD660071DE0755C00FDEC88 /* iostemplate_objectivecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD660061DE0755C00FDEC88 /* iostemplate_objectivecTests.m */; };
 		CDD660121DE0755C00FDEC88 /* iostemplate_objectivecUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD660111DE0755C00FDEC88 /* iostemplate_objectivecUITests.m */; };
+		CDD660221DE0AC4500FDEC88 /* HttpAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD660211DE0AC4500FDEC88 /* HttpAdapter.m */; };
+		CDD660281DE23D1F00FDEC88 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD660271DE23D1F00FDEC88 /* SplashViewController.m */; };
+		CDD6602B1DE23E8100FDEC88 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6602A1DE23E8100FDEC88 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		CDD6600D1DE0755C00FDEC88 /* iostemplate_objectivecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iostemplate_objectivecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD660111DE0755C00FDEC88 /* iostemplate_objectivecUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iostemplate_objectivecUITests.m; sourceTree = "<group>"; };
 		CDD660131DE0755C00FDEC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD660201DE0AC4500FDEC88 /* HttpAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAdapter.h; sourceTree = "<group>"; };
+		CDD660211DE0AC4500FDEC88 /* HttpAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAdapter.m; sourceTree = "<group>"; };
+		CDD660261DE23D1F00FDEC88 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		CDD660271DE23D1F00FDEC88 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		CDD660291DE23E8100FDEC88 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CDD6602A1DE23E8100FDEC88 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +134,9 @@
 		CDD65FEB1DE0755C00FDEC88 /* iostemplate_objectivec */ = {
 			isa = PBXGroup;
 			children = (
+				CDD660251DE0AECA00FDEC88 /* dataaccesslayer */,
+				CDD660231DE0AEA600FDEC88 /* businesslayer */,
+				CDD660241DE0AEAC00FDEC88 /* presentationlayer */,
 				CDD65FEF1DE0755C00FDEC88 /* AppDelegate.h */,
 				CDD65FF01DE0755C00FDEC88 /* AppDelegate.m */,
 				CDD65FF21DE0755C00FDEC88 /* ViewController.h */,
@@ -134,6 +146,10 @@
 				CDD65FFA1DE0755C00FDEC88 /* LaunchScreen.storyboard */,
 				CDD65FFD1DE0755C00FDEC88 /* Info.plist */,
 				CDD65FEC1DE0755C00FDEC88 /* Supporting Files */,
+				CDD660261DE23D1F00FDEC88 /* SplashViewController.h */,
+				CDD660271DE23D1F00FDEC88 /* SplashViewController.m */,
+				CDD660291DE23E8100FDEC88 /* MainViewController.h */,
+				CDD6602A1DE23E8100FDEC88 /* MainViewController.m */,
 			);
 			path = iostemplate_objectivec;
 			sourceTree = "<group>";
@@ -162,6 +178,29 @@
 				CDD660131DE0755C00FDEC88 /* Info.plist */,
 			);
 			path = iostemplate_objectivecUITests;
+			sourceTree = "<group>";
+		};
+		CDD660231DE0AEA600FDEC88 /* businesslayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = businesslayer;
+			sourceTree = "<group>";
+		};
+		CDD660241DE0AEAC00FDEC88 /* presentationlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = presentationlayer;
+			sourceTree = "<group>";
+		};
+		CDD660251DE0AECA00FDEC88 /* dataaccesslayer */ = {
+			isa = PBXGroup;
+			children = (
+				CDD660201DE0AC4500FDEC88 /* HttpAdapter.h */,
+				CDD660211DE0AC4500FDEC88 /* HttpAdapter.m */,
+			);
+			name = dataaccesslayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,7 +387,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD660281DE23D1F00FDEC88 /* SplashViewController.m in Sources */,
+				CDD6602B1DE23E8100FDEC88 /* MainViewController.m in Sources */,
 				CDD65FF41DE0755C00FDEC88 /* ViewController.m in Sources */,
+				CDD660221DE0AC4500FDEC88 /* HttpAdapter.m in Sources */,
 				CDD65FF11DE0755C00FDEC88 /* AppDelegate.m in Sources */,
 				CDD65FEE1DE0755C00FDEC88 /* main.m in Sources */,
 			);
@@ -582,6 +624,7 @@
 				CDD660181DE0755C00FDEC88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDD660191DE0755C00FDEC88 /* Build configuration list for PBXNativeTarget "iostemplate_objectivecTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +633,7 @@
 				CDD6601B1DE0755C00FDEC88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDD6601C1DE0755C00FDEC88 /* Build configuration list for PBXNativeTarget "iostemplate_objectivecUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +642,7 @@
 				CDD6601E1DE0755C00FDEC88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
