@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  MoviesTableView.h
 //  iostemplate_objectivec
 //
 //  Created by Jaenelle Isidro on 21/11/2016.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface MainViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface MoviesTableView : UITableView
 
 @end

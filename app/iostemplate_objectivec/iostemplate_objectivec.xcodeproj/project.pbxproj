@@ -19,6 +19,7 @@
 		CDD660221DE0AC4500FDEC88 /* HttpAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD660211DE0AC4500FDEC88 /* HttpAdapter.m */; };
 		CDD660281DE23D1F00FDEC88 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD660271DE23D1F00FDEC88 /* SplashViewController.m */; };
 		CDD6602B1DE23E8100FDEC88 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6602A1DE23E8100FDEC88 /* MainViewController.m */; };
+		CDD6602E1DE2C05400FDEC88 /* MoviesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6602D1DE2C05400FDEC88 /* MoviesTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		CDD660271DE23D1F00FDEC88 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		CDD660291DE23E8100FDEC88 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		CDD6602A1DE23E8100FDEC88 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CDD6602C1DE2C05400FDEC88 /* MoviesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesTableView.h; sourceTree = "<group>"; };
+		CDD6602D1DE2C05400FDEC88 /* MoviesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				CDD660271DE23D1F00FDEC88 /* SplashViewController.m */,
 				CDD660291DE23E8100FDEC88 /* MainViewController.h */,
 				CDD6602A1DE23E8100FDEC88 /* MainViewController.m */,
+				CDD6602C1DE2C05400FDEC88 /* MoviesTableView.h */,
+				CDD6602D1DE2C05400FDEC88 /* MoviesTableView.m */,
 			);
 			path = iostemplate_objectivec;
 			sourceTree = "<group>";
@@ -388,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDD660281DE23D1F00FDEC88 /* SplashViewController.m in Sources */,
+				CDD6602E1DE2C05400FDEC88 /* MoviesTableView.m in Sources */,
 				CDD6602B1DE23E8100FDEC88 /* MainViewController.m in Sources */,
 				CDD65FF41DE0755C00FDEC88 /* ViewController.m in Sources */,
 				CDD660221DE0AC4500FDEC88 /* HttpAdapter.m in Sources */,
