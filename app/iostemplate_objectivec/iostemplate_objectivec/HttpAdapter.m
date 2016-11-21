@@ -13,17 +13,20 @@
     AFHTTPSessionManager *manager;
 }
 
--(void) postRequest{
+- (id) init{
+    self = [super init];
     manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-
-    
-    NSString *url = @"http://localhost/iostemplate_objectivec/web/json.php";
-    NSDictionary *parameters = @{@"postdata": @"jay", @"baz": @[@1, @2, @3]};
-    
-    //    manager.requestSerializer = [AFJSONRequestSerializer serializer];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
+    //    manager.requestSerializer = [AFJSONRequestSerializer serializer];
     //[manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
+    return self;
+}
+
+
+-(void) postRequest{
+    NSString *url = @"http://localhost/iostemplate_objectivec/web/json.php";
+    NSDictionary *parameters = @{@"postdata": @"jay", @"baz": @[@1, @2, @3]};
     [manager POST:url parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"%@", responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
@@ -34,13 +37,29 @@
 -(void) getRequest{
     NSString *url = @"http://localhost/iostemplate_objectivec/web/json.php";
     NSDictionary *parameters = @{@"postdata": @"jay", @"baz": @[@1, @2, @3]};
-    
-    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-    //    manager.requestSerializer = [AFJSONRequestSerializer serializer];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
-    //[manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    
     [manager GET:url parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"%@", responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"error: %@", error);
+    }];
+}
+
+-(void) putRequest{
+    
+    NSString *url = @"http://localhost/iostemplate_objectivec/web/json.php";
+    NSDictionary *parameters = @{@"postdata": @"jay", @"baz": @[@1, @2, @3]};
+    [manager PUT:url parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"%@", responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"error: %@", error);
+    }];
+}
+
+-(void) deleteRequest{
+    NSString *url = @"http://localhost/iostemplate_objectivec/web/json.php";
+    NSDictionary *parameters = @{@"postdata": @"jay", @"baz": @[@1, @2, @3]};
+    [manager DELETE:url parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"%@", responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"error: %@", error);
@@ -62,22 +81,5 @@
         NSLog(@"File downloaded to: %@", filePath);
     }];
     [downloadTask resume];
-}
-
--(void) normalHttpRequest{
-    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
-    
-    NSURL *URL = [NSURL URLWithString:@"http://httpbin.org/get"];
-    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
-    
-    NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
-        if (error) {
-            NSLog(@"Error: %@", error);
-        } else {
-            NSLog(@"%@ %@", response, responseObject);
-        }
-    }];
-    [dataTask resume];
 }
 @end
